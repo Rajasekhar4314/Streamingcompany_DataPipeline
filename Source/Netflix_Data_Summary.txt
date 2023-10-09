@@ -1,0 +1,85 @@
+link: https://www.kaggle.com/datasets/thedevastator/the-ultimate-netflix-tv-shows-and-movies-dataset/data
+
+This project contain 6 tables. The main 2 tables are raw_credits and raw_titles.
+
+I build 4 different models using the raw tables.
+
+
+1. Best Movie by Year Netflix = this model contains the best movie by year. The criteria applied to consider this table is at least 25,000 votes ordered by imdb score ranking of 1.
+
+2. Best Show by Year Netflix = this model contains the best tv show by year. The criteria applied to consider this table is at least 25,000 votes ordered by imdb score ranking of 1.
+
+3. Best Movies Netflix = this model contains all the movies that pass the following criteria:
+at least an imdb score of 6.9 and at least 10,000 votes
+
+4. Best Shows Netflix = this model contains all the tv shows that pass the following criteria:
+at least an imdb score of 7.5 and at least 10,000 votes
+
+
+File1: raw_titles.csv
+
+title:	The title of the movie or TV show. (String)
+type:	The type of the movie or TV show. (String)
+release_year:	The year the movie or TV show was released. (Integer)
+age_certification:	The age certification of the movie or TV show. (String)
+runtime:	The runtime of the movie or TV show. (Integer)
+genres:	The genres of the movie or TV show. (String)
+production_countries:	The production countries of the movie or TV show. (String)
+seasons:	The number of seasons of the TV show. (Integer)
+imdb_score:	The IMDB score of the movie or TV show. (Float)
+imdb_votes:	The number of IMDB votes of the movie or TV show. (Integer)
+
+File2: raw_credits.csv
+
+name:	The name of the actor or actress. (String)
+character:	The character the actor or actress played in the movie or TV show. (String)
+role:	The role the actor or actress played in the movie or TV show. (String)
+
+
+File3: Best Shows Netflix.csv
+
+Columnname	Description
+
+TITLE:	The title of the movie or TV show. (String)
+RELEASE_YEAR:	The year the movie or TV show was released. (Integer)
+SCORE:	The IMDB score for the movie or TV show. (Float)
+NUMBER_OF_VOTES:	The number of votes the movie or TV show has received on IMDB. (Integer)
+DURATION:	The duration of the movie or TV show in minutes. (Integer)
+NUMBER_OF_SEASONS:	The number of seasons the TV show has. (Integer)
+MAIN_GENRE:	The main genre of the movie or TV show. (String)
+MAIN_PRODUCTION:	The main production company of the movie or TV show. (String)
+
+
+
+File4: Best Movies Netflix.csv
+
+Columnname	Description
+
+TITLE:	The title of the movie or TV show. (String)
+RELEASE_YEAR:	The year the movie or TV show was released. (Integer)
+SCORE:	The IMDB score for the movie or TV show. (Float)
+NUMBER_OF_VOTES:	The number of votes the movie or TV show has received on IMDB. (Integer)
+DURATION:	The duration of the movie or TV show in minutes. (Integer)
+MAIN_GENRE:	The main genre of the movie or TV show. (String)
+MAIN_PRODUCTION:	The main production company of the movie or TV show. (String)
+
+File5: Best Movie by Year Netflix.csv
+
+Column name	Description
+TITLE:	The title of the movie or TV show. (String)
+RELEASE_YEAR:	The year the movie or TV show was released. (Integer)
+SCORE:	The IMDB score for the movie or TV show. (Float)
+MAIN_GENRE:	The main genre of the movie or TV show. (String)
+MAIN_PRODUCTION:	The main production company of the movie or TV show. (String)
+
+File6: Best Show by Year Netflix.csv
+
+Column name	Description
+TITLE:	The title of the movie or TV show. (String)
+RELEASE_YEAR:	The year the movie or TV show was released. (Integer)
+SCORE:	The IMDB score for the movie or TV show. (Float)
+NUMBER_OF_SEASONS:	The number of seasons the TV show has. (Integer)
+MAIN_GENRE:	The main genre of the movie or TV show. (String)
+MAIN_PRODUCTION:	The main production company of the movie or TV show. (String)
+
+
