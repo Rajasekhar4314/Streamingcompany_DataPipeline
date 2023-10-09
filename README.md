@@ -1,9 +1,9 @@
-#Streamingcompany_AzureDataPipeline
+#STREAMING COMPANY DATA ANALYSIS:
 
 
--- > Xyz is a Streaming service provides Movies, TV Shows and other content to their Subscribers. 
--- > Developed an end-to-end data engineering pipeline for xyz company to analyze data and perform customer segmentation. 
--- > This will help the company to better understand their customers' needs.
+Xyz is a Streaming service provides Movies, TV Shows and other content to their Subscribers. 
+Developed an end-to-end data engineering pipeline for xyz company to analyze data and perform customer segmentation. 
+This will help the company to better understand their customers' needs.
 
 Services used: SQL Server, Azure Data Factory, Azure Datalake storage (ADLS), Pyspark, Azure Databricks, Azure Synapse Analytics
 
@@ -34,10 +34,4 @@ OnPrem SQL server --> ADLS --> Databricks (Delta tables) -- > ADLS -- > Azure Sy
 
 
 
-<img width="593" alt="Architecture_Project3" src="https://github.com/Rajasekhar4314/Streamingcompany_DataPipeline/assets/82395124/4160bec6-8f85-416f-a402-92831da00c68">
-
-
-
-
-
-
+![DataPipeline_Architecture](https://github.com/Rajasekhar4314/Streamingcompany_DataPipeline/assets/82395124/e72d895a-dbe3-4f70-8e73-65b10b006fba)
