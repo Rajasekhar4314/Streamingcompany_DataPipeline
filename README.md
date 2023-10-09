@@ -1,4 +1,4 @@
-#STREAMING COMPANY DATA ANALYSIS:
+#<B>STREAMING COMPANY DATA ANALYSIS:
 
 
 Xyz is a Streaming service provides Movies, TV Shows and other content to their Subscribers. 
@@ -22,13 +22,16 @@ Doing some transformations, finding some trends and insights on the data based o
 Then, all files get written into transformedData container in ADLS and also saved as Delta tables.
 
 SYNAPSE ANLYTICS:
+
 Is a Data Warehouse system, we can actually perform all queries in simple language SQL by creating SQL pool. 
 And it also supports to create Pipelines and run Spark applications by using Spark pool i.e Cluster.
 
-Azure Key vault:
+AZURE KEY VAULT:
+
 Here, we have used Azure Key vault to store secret keys for more secured connection.   
 
 Flow of the Project:
+
 OnPrem SQL server --> ADLS --> Databricks (Delta tables) -- > ADLS -- > Azure Synapse Analytics
 
 
