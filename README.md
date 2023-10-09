@@ -1,4 +1,4 @@
-#<B>STREAMING COMPANY DATA ANALYSIS:
+<B>STREAMING COMPANY DATA ANALYSIS:
 
 
 Xyz is a Streaming service provides Movies, TV Shows and other content to their Subscribers. 
